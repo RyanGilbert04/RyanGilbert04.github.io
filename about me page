@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ryan web page</title>
+      
+    </head>
+    
+    <body>
+    <table>
+    <thead>
+        <tr>
+        <th><img src="https://github.com/RyanGilbert04/RyanGilbert04.github.io/blob/main/csc%20header.jpg?raw=true"</td>
+        </tr>
+        <tbody>
+        <tr>
+       
+            <td>
+             
+                <li><a target ="_blank" href= "https://brightspace.uri.edu/d2l/home"> 
+                <img src= "https://github.com/RyanGilbert04/RyanGilbert04.github.io/blob/main/javascripts.png?raw=true">
+               
+           </td>
+       //  </a>//
+        </li>
+            
+        <td>
+                <li><a target ="_blank" href= "https://brightspace.uri.edu/d2l/home"> 
+                <img src= "https://github.com/RyanGilbert04/RyanGilbert04.github.io/blob/main/home%20csc.png?raw=true" alt = "home">
+            
+           
+        </td>
+        
+        <td>
+            
+            <li><a target ="_blank" href= "https://brightspace.uri.edu/d2l/home"> 
+                <img src= "https://github.com/RyanGilbert04/RyanGilbert04.github.io/blob/main/about%20me%20csc.png?raw=true" alt = "About me">
+            
+            
+                    
+                    </td>
+        
+        
+            </tr>
+        </tbody>
+    </thead>
+</table>
 
+<p> this is the about me page </p>
+
+</body>
+</html
