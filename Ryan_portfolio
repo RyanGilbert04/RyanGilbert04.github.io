@@ -3,6 +3,17 @@
     <head>
         <meta charset="utf-8">
         <title>Ryan web page</title>
+      <style>  
+      
+      p {
+            color: rgb(0, 232, 15);
+        }  
+
+      
+      
+      </style>
+      
+      
       
     </head>
     
@@ -42,7 +53,14 @@
                     
                     </td>
         
-        
+         <td>
+            
+            <li><a target ="_blank" href= "https://github.com/RyanGilbert04/RyanGilbert04.github.io/blob/main/about_me.html"> 
+                <img src= "https://github.com/RyanGilbert04/RyanGilbert04.github.io/blob/main/about%20me%20csc.png?raw=true" alt = "javascript app">
+            
+            
+                    
+                    </td>
             </tr>
         </tbody>
     </thead>
