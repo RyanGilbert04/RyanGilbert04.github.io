@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ryan web page</title>
+     <style> 
+         body {
+             background-color: rgb(53, 53, 53);}
+        
+          p { color: rgb(225, 225, 225); }
+       
+        
+        </style>
+        
+    </head>
+    
+    <body>
+  
+    
+        
+        
+        <table>
+    <thead>
+        <tr>
+        <th><img src="mybanner.jpg"</td>
+        </tr>
+        <tbody>
+        <tr>
+       
+            <td>
+             
+                <li><a target ="_blank" href= "javascript.html"> 
+                <img src= "javascript.png">
+               
+           </td>
+       //  </a>//
+        </li>
+            
+        <td>
+                <li><a target ="_blank" href= "RyanGilbert04.github.io"> 
+                <img src= "Home.png" alt = "home">
+            
+           
+                    
+               
+        </td>
+        
+        <td>
+            
+            <li><a target ="_blank" href= "about_me.html"> 
+                <img src= "About%20Me.png" alt = "About me">
+            
+            
+                    
+                    </td>
+        
+         <td>
+            
+            <li><a target ="_blank" href= "about_me.html"> 
+                <img src= "Apps.png" alt = "apps">
+            
+            
+                    
+                    </td>
+            </tr>
+        </tbody>
+    </thead>
+</table>
+    <p> <strong> Apps </strong> <p>
+    <p> Apps and projects will be posted here </p>
+</body>
+</html
