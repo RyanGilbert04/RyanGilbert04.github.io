@@ -67,9 +67,81 @@
     </thead>
 </table>
     <p> <strong> My javascript page </strong> <p>
+// these are the buttons
+
+<javascript>
+    
+    var eye = 15;
+
+var tooth = 30;
+
+var x = 20;
+
+draw = function() {
+
+ellipse(x + 10, 51, 52, 79);  // left ear
+ellipse(x + 90, 51, 52, 79);  // right ear
+
+ellipse(x + 55, 119, 131, 130);    // face
+
+fill(0, 0, 0);
+ellipse(x + 17, 102, eye, eye);  // left eye
+ellipse(x + 80, 103, eye, eye );  // right eye
+
+line(x , 154, 129, 154);   // mouth
+
+noFill();
+rect(x + 37, 154, 15, tooth); // left tooth
+rect(x +52, 154, 15, tooth); // right tooth
+
+x = x+1;
+
+};
+// end of bunny
+
+draw = function() {
+var eye = 20;
+
+fill(46, 66, 179);
+rect(68,219,34,1001);
+
+rect(x - 8,364,143,200); // body
+
+// head
+fill(255, 227, 168);
+ellipse(85,284,116,132);
+
+fill(69, 71, 191);
+ellipse(66,277,eye,eye); //left eye
+ellipse(104,278,eye,eye); // right eye
+
+fill(255, 255, 255);
+stroke(255, 255, 255);
+ellipse(86,320,39,23); // mouth
+
+fill(255, 227, 168);
+stroke(255, 227, 168);
+ellipse(85,306,60,40); // mouth
+
+stroke(110, 74, 8); // hair
+fill(110, 74, 8);
+ellipse(44,229,47,32);
+ellipse(83,229,47,32);
+ellipse(123,229,47,32);
+
+fill(46, 66, 179);
+rect(26,188,113,26);
+
+fill(46, 66, 179);
+rect(13,207,141,20);
 
 
-
+fill(0, 0, 0);
+textSize(40);
+text("RG",56,370,40,40);
+};
+    
+        </javascript>
 
    <p> this website is a project created by Ryan Gilbert. this person enjoy's going to the gym, and hanging out with friends </p>
 
