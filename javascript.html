@@ -140,8 +140,106 @@ fill(0, 0, 0);
 textSize(40);
 text("RG",56,370,40,40);
 };
+    <br>
+    
+    
+                            // functions
+    
+    
+     var eye = 15;
+
+var tooth = 30;
+
+var x = 20;
+
+draw = function() {
+    
+    var size = 0;
+ 
+var drawbunny = function(){
+ellipse(x + 10, 51, 52, 79);  // left ear
+ellipse(x + 90, 51, 52, 79);  // right ear
+
+ellipse(x + 55, 119, 131, 130);    // face
+
+fill(0, 0, 0);
+ellipse(x + 17, 102, eye, eye);  // left eye
+ellipse(x + 80, 103, eye, eye );  // right eye
+
+line(x , 154, 129, 154);   // mouth
+noFill();
+rect(x + 37, 154, 15, tooth); // left tooth
+rect(x +52, 154, 15, tooth); // right tooth
+x = x+1;
+};
+};
+// end of bunny
+
+draw = function(size) {
+background(255, 0, 0);
+var eye = 20;
+var drawNeck=function(size){
+fill(46, 66, 179);
+rect(68+size,218+size,32,1001); // neck
+
+rect(x - 8,362,143,200);};
+var drawFace = function(){
+// head
+fill(255, 227, 168);
+ellipse(85,284,116,132);
+fill(69, 71, 191);
+ellipse(66,277,eye,eye); //left eye
+ellipse(104,278,eye,eye); // right eye
+fill(255, 255, 255);
+stroke(255, 255, 255);
+ellipse(86,320,39,23); // mouth
+fill(255, 227, 168);
+stroke(255, 227, 168);
+ellipse(85,306,60,40); // mouth
+};
+var drawHat = function(){
+stroke(110, 74, 8); // hair
+fill(110, 74, 8);
+ellipse(44,229,47,32);
+ellipse(83,229,47,32);
+ellipse(123,229,47,32);
+fill(46, 66, 179);
+rect(26,188,111,26); // hat
+fill(46, 66, 179); 
+rect(13,207,141,25); // bottom hat
+};
+var drawName = function(){
+fill(0, 0, 0);
+textSize(40);
+text("RG",56,370,40,40); // name
+};
+var drawbunny = function(){
+ellipse(x + 10, 51, 52, 79);  // left ear
+ellipse(x + 90, 51, 52, 79);  // right ear
+
+ellipse(x + 55, 119, 131, 130);    // face
+
+fill(0, 0, 0);
+ellipse(x + 17, 102, eye, eye);  // left eye
+ellipse(x + 80, 103, eye, eye );  // right eye
+
+line(x , 154, 129, 154);   // mouth
+noFill();
+rect(x + 37, 154, 15, tooth); // left tooth
+rect(x +52, 154, 15, tooth); // right tooth
+x = x+1;
+};
+
+drawNeck();
+drawFace();
+drawHat();
+drawName();
+drawbunny();
+};
+
     
         </javascript>
+        <li><a target ="_blank" href= "https://www.khanacademy.org/computer-programming/bitmoji/5306490958692352"> 
 
    <p> this website is a project created by Ryan Gilbert. this person enjoy's going to the gym, and hanging out with friends </p>
 
